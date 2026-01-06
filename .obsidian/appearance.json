@@ -1,0 +1,11 @@
+{
+  "cssTheme": "Cupertino",
+  "translucency": false,
+  "interfaceFontFamily": "LXGW WenKai Mono",
+  "baseFontSize": 18,
+  "textFontFamily": "LXGW WenKai Mono",
+  "monospaceFontFamily": "LXGW WenKai Mono",
+  "enabledCssSnippets": [
+    "line-space"
+  ]
+}
