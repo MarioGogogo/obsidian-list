@@ -23,7 +23,7 @@ npx zcf u        # 仅导入工作流：快速添加 AI 工作流和命令系统
 
 - `<任务描述>` - <mark style="background:#ff4d4f">不使用任何工作流直接执行，会遵循 SOLID、KISS、DRY 和 YAGNI 原则</mark>，适合做小功能和修复 Bug 等小任务
 - `/feat <任务描述>` - <mark style="background:#d4b106">开始新功能开发，分为 plan 和 ui 两个阶段</mark>
-- `/workflow <任务描述>` - 执行完整开发工作流，不是自动化，开始会给出多套方案，每一步会询问用户意见，可随时修改方案，掌控力MAX
+- `/workflow <任务描述>` - 执行完整开发工作流，不是自动化，<mark style="background: #2ADF39;">开始会给出多套方案，每一步会询问用户意见，可随时修改方案</mark>，掌控力MAX
 
 > - feat和workflow这两套各有优势，佬友们可以都试试比较一下
 > - 生成的文档位置默认都是项目根目录下的.claude/xxx.md，可以把`.claude/`加入项目的`.gitignore`里
