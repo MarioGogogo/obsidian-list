@@ -80,6 +80,13 @@
 ### planning-with-files
 
 基于文件的项目规划和任务管理系统。
+这个开源 Skill 强制 AI 在执行复杂任务时，必须遵循 **“三文件模式”**：
+
+1. 1. <font color="#ff0000">task_plan.md</font><font color="#33dd6c">（任务规划书）</font>**：这是大脑。记录目标、当前阶段、已完成的进度和**遇到的错误**。
+    
+2. 2. <font color="#ff0000">notes.md</font><font color="#33dd6c">（笔记/草稿）</font>**：这是笔记本。存储调研结果、中间思考和长文本，**不要**把这些东西塞进宝贵的对话上下文里。
+    
+3. 3. <font color="#ff0000">[deliverable].md</font><font color="#33dd6c">（交付物）</font>**：这是最终产品。
 
 **核心功能：**
 
