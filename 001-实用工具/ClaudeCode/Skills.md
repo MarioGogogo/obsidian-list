@@ -4,7 +4,7 @@
 
 **官网链接**：[https://skillsmp.com/](https://skillsmp.com/)
 
-Skills 是 Claude Code 的插件系统。每个 Skill 都是一个可复用的工具模块，自动处理特定的开发任务，帮你节省大量重复工作。
+<font color="#ff0000">Skills 是 Claude Code 的插件系统。每个 Skill 都是一个可复用的工具模块，自动处理特定的开发任务，帮你节省大量重复工作。</font>
 
 ---
 
