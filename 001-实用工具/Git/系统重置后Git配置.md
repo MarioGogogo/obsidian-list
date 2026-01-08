@@ -80,4 +80,7 @@ ssh-ed25519 AAAA***5B Gitee SSH Key
 用户可以通过主页右上角 **「个人设置」->「安全设置」->「SSH 公钥」->「[添加公钥](https://gitee.com/profile/sshkeys)」** ，添加生成的 public key 添加到当前账户中。
 
 > 需要注意： **添加公钥需要验证用户密码**
+## gitee配置
 ![](assets/系统重置后Git配置/file-20260108111731014.png)
+
+## github配置
