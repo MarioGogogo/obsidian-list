@@ -21,7 +21,27 @@ ssh-keygen -t ed25519 -C "Gitee SSH Key"
 输出，如：
 
 ```
-Generating public/private ed25519 key pair.Enter file in which to save the key (/home/git/.ssh/id_ed25519):Enter passphrase (empty for no passphrase):Enter same passphrase again:Your identification has been saved in /home/git/.ssh/id_ed25519Your public key has been saved in /home/git/.ssh/id_ed25519.pubThe key fingerprint is:SHA256:ohDd0OK5WG2dx4gST/j35HjvlJlGHvihyY+Msl6IC8I Gitee SSH KeyThe key's randomart image is:+--[ED25519 256]--+|    .o           ||   .+oo          ||  ...O.o +       ||   .= * = +.     ||  .o +..S*. +    ||. ...o o..+* *   ||.E. o . ..+.O    || . . ... o =.    ||    ..oo. o.o    |+----[SHA256]-----+
+ssh-keygen -t ed25519 -C "148373644@qq.com"
+Generating public/private ed25519 key pair.
+Enter file in which to save the key (/Users/lovewcc/.ssh/id_ed25519): 
+Enter passphrase for "/Users/lovewcc/.ssh/id_ed25519" (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/lovewcc/.ssh/id_ed25519
+Your public key has been saved in /Users/lovewcc/.ssh/id_ed25519.pub
+The key fingerprint is:
+SHA256:D6fphcL8l0AmYWxOXOXHkqIUlmQ8YDv0pogIMYG4mSc 148373644@qq.com
+The key's randomart image is:
++--[ED25519 256]--+
+|*.  +*=o...      |
+|oo o =@. . o     |
+|.+  o=+o. + o    |
+|E... =o.o. o     |
+|oo. . .+S .      |
+|     o  .B       |
+|      + +.o.     |
+|       + .o      |
+|        o.       |
++----[SHA256]-----+
 ```
 
 - 中间通过三次**回车键**确定
