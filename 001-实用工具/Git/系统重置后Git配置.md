@@ -84,3 +84,4 @@ ssh-ed25519 AAAA***5B Gitee SSH Key
 ![](assets/系统重置后Git配置/file-20260108111731014.png)
 
 ## github配置
+![](assets/系统重置后Git配置/file-20260108134505343.png)
