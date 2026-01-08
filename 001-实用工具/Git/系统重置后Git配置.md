@@ -12,6 +12,8 @@ Gitee 提供了基于 SSH 协议的 Git 服务，在使用 SSH 协议访问仓�
 1. 通过命令 `ssh-keygen` 生成 SSH Key：
 
 ```
+ssh-keygen -t ed25519 -C "148373644@qq.com"  //输入自己的📮地址
+
 ssh-keygen -t ed25519 -C "Gitee SSH Key"
 ```
 
@@ -47,6 +49,12 @@ The key's randomart image is:
 - 中间通过三次**回车键**确定
 
 2. 查看生成的 SSH 公钥和私钥：
+
+
+```
+ cat ~/.ssh/id_rsa.pub
+```
+
 
 ```
 ls ~/.ssh/
@@ -85,3 +93,14 @@ ssh-ed25519 AAAA***5B Gitee SSH Key
 
 ## github配置
 ![](assets/系统重置后Git配置/file-20260108134505343.png)
+
+
+通过 `ssh -T` 测试时，输出 **Anonymous**：
+
+```
+$ ssh -T git@gitee.com
+
+Hi Anonymous! You've successfully authenticated, but GITEE.COM does not provide shell access.
+```
+
+添加成功后，就可以使用 SSH 协议对仓库进行**拉取**。
