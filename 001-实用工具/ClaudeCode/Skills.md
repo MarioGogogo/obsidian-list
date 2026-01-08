@@ -83,11 +83,23 @@
 
 **核心功能：**
 
-- 将计划和知识存储在 Markdown 文件中
-- 可视化项目进度和任务状态
-- 构建项目知识库，支持长期回顾
-- Manus 风格的标准化文档格式
-- 将复杂项目拆解为可管理的子任务
+**1.文件系统作为外部记忆 (Filesystem as External Memory)**
+- **原理**：不要依赖易失的Context Window。将磁盘视为无限的“外挂内存”，只在Context中保留文件路径。
+
+**2.通过重复进行注意力操纵 (Attention Manipulation Through Repetition)**
+- **原理**：对抗“Lost in the Middle”。在关键决策前反复读取计划文件，强行刷新模型的“注意力权重”。
+
+**3.保留失败痕迹 (Keep Failure Traces)**
+- **原理**：错误是宝贵的资产。显式记录失败尝试，让模型通过“反思”避免死循环，而不是掩盖错误。
+
+**4.避免少样本过拟合 (Avoid Few-Shot Overfitting)**
+- **原理**：在重复性任务中引入受控变体，防止模型陷入机械式的幻觉。
+
+**5.稳定前缀优化缓存 (Stable Prefixes for Cache Optimization)**
+- **原理**：通过固定的文件结构和前置指令，最大化KV-Cache命中率，降低Token成本。
+
+**6.只增不改的上下文 (Append-Only Context)**
+- **原理**：尽量以追加（Append）而非修改（Modify）的方式更新信息，维护上下文的连贯性。
 
 **适用场景：**
 
