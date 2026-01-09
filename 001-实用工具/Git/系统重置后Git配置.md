@@ -1,7 +1,7 @@
 
 # SSH 公钥设置
 ![](assets/系统重置后Git配置/file-20260108122620585.png)
-Gitee 提供了基于 SSH 协议的 Git 服务，在使用 SSH 协议访问仓库仓库之前，需要先配置好账户 SSH 公钥。
+<mark style="background: #FFF3A3A6;">Gitee 提供了基于 SSH 协议的 Git 服务，在使用 SSH 协议访问仓库仓库之前，需要先配置好账户 SSH 公钥。</mark>
 
 > 仓库公钥（部署公钥）请移步 [添加部署公钥](https://help.gitee.com/repository/ssh-key/generate-and-add-ssh-public-key)
 
