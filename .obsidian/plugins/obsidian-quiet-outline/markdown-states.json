@@ -192,5 +192,75 @@
       }
     },
     "expandedKeys": []
+  },
+  "001-实用工具/ClaudeCode/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "001-实用工具/ClaudeCode/优化代码提示词.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 15,
+        "ch": 33
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "004-AI提示词/优化代码提示词.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 15,
+        "ch": 33
+      },
+      "to": {
+        "line": 15,
+        "ch": 33
+      }
+    },
+    "expandedKeys": []
+  },
+  "004-AI提示词/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 45
+      },
+      "to": {
+        "line": 1,
+        "ch": 45
+      }
+    },
+    "expandedKeys": []
+  },
+  "004-AI提示词/swiftui开发.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 0
+      },
+      "to": {
+        "line": 4,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
