@@ -105,4 +105,4 @@ Hi Anonymous! You've successfully authenticated, but GITEE.COM does not provide 
 
 添加成功后，就可以使用 SSH 协议对仓库进行**拉取**。
 
-git remote set-url origin git@github.com:MarioGogogo/swiftui-2026.git
+>git remote set-url origin git@github.com:MarioGogogo/swiftui-2026.git
