@@ -9,6 +9,9 @@
 ```bash
 cd NebulaRN
 
+安装系统
+npx @react-native-community/cli init NebulaRN3 --version 0.76.5
+
 # 安装 Re.Pack 及相关依赖
 npm install --save-dev @callstack/repack webpack terser-webpack-plugin babel-loader
 
