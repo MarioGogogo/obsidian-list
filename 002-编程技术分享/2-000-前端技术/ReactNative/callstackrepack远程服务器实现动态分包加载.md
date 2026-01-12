@@ -20,6 +20,24 @@ npm install react-native-fs
 
 # iOS 需要 pod install
 cd ios && pod install && cd ..
+
+
+
+npx @callstack/repack-init@4.4.1
+
+Need to install the following packages:
+@callstack/repack-init@4.4.1
+Ok to proceed? (y) y
+
+npm warn deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+✔ Dependencies installed
+✔ Downloading webpack.config.mjs template
+✔ Created webpack.config.mjs from template
+✔ Created react-native.config.js
+✔ Added "webpack-bundle" as bundleCommand to android/app/build.gradle
+✔ Successfully modified iOS project files
+
+🎉 Setup complete. Thanks for using Re.Pack!
 ```
 
 ---
