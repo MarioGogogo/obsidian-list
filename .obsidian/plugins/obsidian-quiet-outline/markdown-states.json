@@ -1,6 +1,6 @@
 {
   "001-实用工具/Git/系统重置后Git配置.md": {
-    "scroll": 2.9496258107433895,
+    "scroll": 2.99965075669383,
     "cursor": {
       "from": {
         "line": 4,
@@ -169,12 +169,40 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 52,
-        "ch": 50
+        "line": 3,
+        "ch": 0
       },
       "to": {
-        "line": 52,
-        "ch": 55
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "欢迎.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 15,
+        "ch": 0
+      },
+      "to": {
+        "line": 15,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "004-AI提示词/swiftui开发提示词.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
       }
     },
     "expandedKeys": []
