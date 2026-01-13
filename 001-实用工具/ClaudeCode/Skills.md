@@ -1,79 +1,86 @@
-# Claude Code Skills
+# Claude Code Skills：让 AI 助手如虎添翼的插件系统
+
+在日常开发中，我们经常需要反复执行一些固定流程：写完代码后格式化、添加文档、提交 Git、发起 Pull Request……这些操作虽然不复杂，但琐碎且耗时。有没有一种方法，能把这些多步骤操作压缩成一条简洁的命令？
+
+**Claude Code Skills** 正是为解决这一问题而生。它是 Claude Code 的插件系统，每个 Skill 都是一个可复用的工具模块，专注于特定场景，让你的 AI 助手真正成为"全能型开发搭档"。
+
+---
+
+## 什么是 Skills？
+
+想象一下：如果你的工具箱里有各种专用螺丝刀——十字、一字、内六角、TORX……每种工具只做一件事，却能应对所有场景。Skills 就是这样的存在。
+
+每个 Skill 都是一个独立的"技能包"，它封装了特定任务的最佳实践和完整流程。你无需每次都从头描述需求，只需调用对应的 Skill，AI 就能理解你的意图并按照既定标准执行。
 
 ![Skills Dashboard](assets/Skills/file-20260108152217277.png)
 
-**官网链接**：[https://skillsmp.com/](https://skillsmp.com/)
-
-<font color="#ff0000">Skills 是 Claude Code 的插件系统。每个 Skill 都是一个可复用的工具模块，自动处理特定的开发任务，帮你节省大量重复工作。</font>
-
----
-## 目前项目中常用
-
-| 技能名称                                                     | 描述                      |
-| -------------------------------------------------------- | ----------------------- |
-| `planning-with-files`                                    | Manus 风格持久化 markdown 规划 |
-| `ui-ux-pro-max`                                          | UI/UX 设计智能体             |
-| `readme-writing`                                         | 编写文件夹 README            |
-| `maxritter-claude-codepro-frontend-components-standards` | 前端组件设计规范                |
-| `frontend-design`                                        | 创建生产级前端界面               |
-| `zenobi-us-dotfiles-git-workflow-manager`                | Git 工作流管理               |
-| `docs-write`                                             | 编写文档                    |
-| `zcf:git-worktree`                                       | 管理 Git worktree         |
-| `zcf:bmad-init`                                          | bmad-init 命令            |
-| `zcf:workflow`                                           | 六阶段开发工作流                |
-| `zcf:feat`                                               | 新增功能开发                  |
-| `zcf:init-project`                                       | 初始化项目 AI 上下文            |
-| `zcf:git-commit`                                         | 自动生成 commit 信息          |
-| `zcf:git-cleanBranches`                                  | 清理 Git 分支               |
-| `zcf:git-rollback`                                       | 回滚 Git 分支               |
-
-## 为什么使用 Skills
-
-### 提升效率
-
-将多步骤操作压缩成一条命令：
-
-```
-传统方式：编写代码 → 格式化 → 添加文档 → 提交 Git（4个步骤）
-使用 Skills：/commit（1个命令）
-```
-
-平均节省 **60-80%** 的重复工作时间。
-
-### 内置最佳实践
-
-每个 Skill 都封装了行业标准：
-
-- **代码规范**：自动遵循项目代码风格
-- **设计模式**：应用成熟的架构模式
-- **安全标准**：内置 OWASP 安全检查
-- **性能优化**：基于实际场景的优化策略
-
-### 工具链集成
-
-- Git 工作流：自动化分支管理、代码审查
-- IDE 集成：与 VSCode、JetBrains 配合
-- CI/CD 管道：支持持续集成和部署
-- 文档生成：自动维护项目文档
+> 官网链接：[https://skillsmp.com/](https://skillsmp.com/)
 
 ---
 
-## 推荐的 Skills
+## 为什么要使用 Skills？
 
-### frontend-design
+### 从四步到一步：效率的飞跃
 
-生成生产级的前端界面设计。
+在没有 Skills 之前，完成一次代码提交可能需要这样操作：
 
-**适用场景：**
+```
+传统方式：编写代码 → 格式化代码 → 添加文档 → 提交 Git（4个独立步骤）
+使用 Skills：输入 /commit → 回车（1个命令搞定）
+```
 
-- 快速原型开发
-- Landing Page 设计
-- 管理后台界面
-- 移动端应用界面
-- 组件库搭建
+这不仅仅是"少打几个字"的问题。更关键的是，每个 Skill 都内置了**行业最佳实践**：
+
+| 最佳实践 | 体现方式 |
+|---------|---------|
+| 代码规范 | 自动遵循项目代码风格，保持团队代码一致性 |
+| 设计模式 | 选用成熟的架构方案，避免"自己造轮子" |
+| 安全标准 | 内置 OWASP 安全检查，防范常见漏洞 |
+| 性能优化 | 基于实际场景的优化策略，而非纸上谈兵 |
+
+使用 Skills 后，平均能节省 **60-80%** 的重复性工作时间。这些时间用来做什么不好呢？
+
+### 无缝融入你的工具链
+
+Skills 并不是孤立的工具，它与你的日常开发环境深度集成：
+
+- **Git 工作流**：自动化分支管理、智能生成提交信息、辅助代码审查
+- **IDE 集成**：与 VSCode、JetBrains 等编辑器完美配合
+- **CI/CD 管道**：支持持续集成和自动化部署流程
+- **文档生成**：自动维护项目文档，让文档与代码同步更新
+
+---
+
+## 常用 Skills 一览
+
+根据不同场景，Claude Code 提供了丰富的 Skills 供你选择：
+
+| 技能名称 | 核心能力 |
+|---------|---------|
+| `frontend-design` | 创建生产级前端界面，打造独特视觉体验 |
+| `planning-with-files` | Manus 风格的持久化 Markdown 规划 |
+| `readme-writing` | 自动生成标准化的项目文档 |
+| `zcf:git-commit` | 智能生成符合规范的 commit 信息 |
+| `zcf:workflow` | 专业六阶段开发工作流 |
+| `zcf:git-cleanBranches` | 清理已合并或过期的 Git 分支 |
+| `zcf:feat` | 新增功能开发的完整流程 |
+
+---
+
+## 重点 Skills 详解
+
+### frontend-design：让 UI 设计变简单
+
+如果你曾为"如何设计一个好看的登录页"而发愁，这个 Skill 就是为你准备的。
+
+**它能做什么：**
+- 快速原型开发，让想法立刻可视化
+- 打造独特的 Landing Page，而非"套娃"式模板
+- 构建完整的管理后台界面
+- 移动端应用界面设计
+- 建立可复用的组件库
 
 **使用示例：**
-
 ```
 请帮我设计一个现代化的登录页面，包含：
 - 邮箱/用户名输入框
@@ -84,84 +91,44 @@
 - 响应式布局，适配移动端
 ```
 
-**技术特点：**
+它的独特之处在于：**拒绝 AI 通用模板感**。每个设计都追求独特性，遵循完整的颜色、字体、间距设计规范，同时确保可访问性（WCAG 标准）和移动优先的响应式布局。
 
-| 特性 | 说明 |
-|------|------|
-| 设计质量 | 避免 AI 通用模板感，确保独特性 |
-| 组件封装 | 高度可复用的组件架构 |
-| 主题系统 | 完整的颜色、字体、间距设计规范 |
-| 移动优先 | Mobile-first 的响应式设计 |
-| 可访问性 | 遵循 WCAG 无障碍标准 |
+### planning-with-files：复杂项目的"外接大脑"
 
----
+这是 Manus 风格的开源 Skill，特别适合需要长期规划的大型项目。
 
-### planning-with-files
+它的核心理念很有意思：**用文件系统作为"外挂记忆"**。
 
-基于文件的项目规划和任务管理系统。
-这个开源 Skill 强制 AI 在执行复杂任务时，必须遵循 **“三文件模式”**：
+你是否也有过这样的经历：聊着聊着，AI 突然"忘了"之前讨论的内容？因为它依赖的是易失的 Context Window。而 planning-with-files 强制采用"三文件模式"，把重要信息写到磁盘上：
 
-1. 1. <font color="#ff0000">task_plan.md</font><font color="#33dd6c">（任务规划书）</font>**：这是大脑。记录目标、当前阶段、已完成的进度和**遇到的错误**。
-    
-2. 2. <font color="#ff0000">notes.md</font><font color="#33dd6c">（笔记/草稿）</font>**：这是笔记本。存储调研结果、中间思考和长文本，**不要**把这些东西塞进宝贵的对话上下文里。
-    
-3. 3. <font color="#ff0000">[deliverable].md</font><font color="#33dd6c">（交付物）</font>**：这是最终产品。
+1. **task_plan.md（任务规划书）**：项目的大脑，记录目标、当前阶段、已完成进度，以及——**遇到的错误**。错误不是耻辱，而是宝贵的学习资产。
 
-**核心功能：**
+2. **notes.md（笔记/草稿）**：项目的笔记本，存储调研结果、中间思考。不把这些"中间产物"塞进宝贵的上下文里。
 
-**1.文件系统作为外部记忆 (Filesystem as External Memory)**
-- **原理**：不要依赖易失的Context Window。将磁盘视为无限的“外挂内存”，只在Context中保留文件路径。
+3. **[deliverable].md（交付物）**：项目的最终产品，清晰呈现所有成果。
 
-**2.通过重复进行注意力操纵 (Attention Manipulation Through Repetition)**
-- **原理**：对抗“Lost in the Middle”。在关键决策前反复读取计划文件，强行刷新模型的“注意力权重”。
+这种模式带来了几个关键优势：
 
-**3.保留失败痕迹 (Keep Failure Traces)**
-- **原理**：错误是宝贵的资产。显式记录失败尝试，让模型通过“反思”避免死循环，而不是掩盖错误。
-
-**4.避免少样本过拟合 (Avoid Few-Shot Overfitting)**
-- **原理**：在重复性任务中引入受控变体，防止模型陷入机械式的幻觉。
-
-**5.稳定前缀优化缓存 (Stable Prefixes for Cache Optimization)**
-- **原理**：通过固定的文件结构和前置指令，最大化KV-Cache命中率，降低Token成本。
-
-**6.只增不改的上下文 (Append-Only Context)**
-- **原理**：尽量以追加（Append）而非修改（Modify）的方式更新信息，维护上下文的连贯性。
+- **对抗"Lost in the Middle"**：在关键决策前反复读取计划文件，强行刷新模型的"注意力权重"
+- **保留失败痕迹**：显式记录失败尝试，让模型通过"反思"避免死循环
+- **稳定前缀优化缓存**：固定的文件结构能最大化 KV-Cache 命中率，降低 Token 成本
 
 **适用场景：**
-
-- 复杂功能开发前的规划
+- 复杂功能开发前的系统规划
 - 多步骤项目的任务管理
 - 技术调研和可行性分析
 - 代码重构策略制定
-- 团队知识共享和文档化
 
-**文档结构：**
+### readme-writing：告别"凑合"的文档
 
-```
-project-plan/
-├── 01-research.md          # 调研阶段
-├── 02-architecture.md      # 架构设计
-├── 03-implementation.md    # 实施计划
-├── 04-testing.md          # 测试策略
-├── 05-deployment.md       # 部署方案
-└── 00-index.md            # 总览索引
-```
-
----
-
-### readme-writing
-
-自动生成标准化的项目文档。
-
-**核心功能：**
+好的文档是项目成功的关键，但写文档往往是开发者最不愿意做的事。readme-writing 让这件事变得轻松：
 
 - 遵循业界最佳实践的 README 结构
 - 基于项目代码自动生成基础内容
 - 美观的 Markdown 排版和徽章系统
 - 支持国际化项目的多语言文档
 
-**标准结构：**
-
+**标准结构示例：**
 ```markdown
 # 项目名称
 
@@ -186,81 +153,59 @@ npm install your-project
 MIT License
 ```
 
-**最佳实践：**
-
-1. 使用简洁有力的项目名称和描述
-2. 添加项目截图或演示 GIF
-3. 提供 5 分钟内可运行的最小示例
-4. 与代码变更同步更新文档
-5. 设置常见问题解答
-
 ---
 
-## 如何选择合适的 Skill
+## 如何选择合适的 Skill？
 
-根据任务类型选择：
+面对这么多选择，如何判断哪个最适合当前任务？这里有一份快速参考：
 
-| 任务类型 | 推荐技能 | 原因 |
-|---------|---------|------|
-| UI 界面设计 | `frontend-design` | 生产级设计质量 |
-| 项目规划 | `planning-with-files` | 持久化和可追溯 |
-| 文档编写 | `readme-writing` | 标准化格式 |
-| Git 操作 | `zcf:git-commit` | 智能提交信息 |
+| 任务类型 | 推荐技能 | 选择理由 |
+|---------|---------|---------|
+| UI 界面设计 | `frontend-design` | 生产级设计质量，避免模板感 |
+| 项目规划 | `planning-with-files` | 持久化存储，进度可追溯 |
+| 文档编写 | `readme-writing` | 标准化格式，开箱即用 |
+| Git 提交 | `zcf:git-commit` | 智能生成规范提交信息 |
 | 代码审查 | `review-pr` | 自动化 PR 检查 |
 
 ---
 
-## 使用技巧
+## 最佳实践：组合使用
 
-### 组合使用
+Skills 的真正威力，在于它们可以串联使用：
 
 ```
 规划阶段：/planning-with-files
+    ↓
 开发阶段：/frontend-design
-提交阶段：/git-commit
+    ↓
+提交阶段：/zcf:git-commit
+    ↓
 文档阶段：/readme-writing
 ```
 
-### 优化参数
+这种流水线式的工作流，让整个开发周期更加顺畅。
 
-- 为 Skill 提供清晰的上下文信息
+**进阶技巧：**
+- 为每个 Skill 提供清晰的上下文信息
 - 指定具体的输出格式要求
 - 说明项目的技术栈和约束条件
-
-### 迭代改进
-
-- 保存满意的 Skill 输出作为模板
+- 保存满意的输出作为模板复用
 - 根据项目特点定制 Skill 参数
-- 建立团队的 Skill 使用规范
-
----
-
-## 注意事项
-
-**应该做的：**
-
-- 始终检查 Skill 生成的代码和文档
-- 将 Skill 生成的文件纳入 Git 管理
-- 确保团队对 Skill 使用有一致理解
-
-**不应该做的：**
-
-- 过度依赖 Skill，不能完全替代人工判断
-- 盲目信任输出，安全关键代码必须人工审查
 
 ---
 
 ## 效果对比
 
-| 指标 | 传统方式 | 使用 Skills | 提升 |
-|------|---------|------------|------|
-| README 编写 | 30-60 分钟 | 5-10 分钟 | 5-6x |
-| UI 原型设计 | 2-4 小时 | 20-30 分钟 | 4-8x |
-| Git 提交信息 | 2-5 分钟 | 10 秒 | 12-30x |
-| 项目规划文档 | 1-2 天 | 1-2 小时 | 8-12x |
+使用 Skills 能带来多大的提升？来看一些实际数据：
 
-**代码质量改善：**
+| 任务 | 传统方式 | 使用 Skills | 效率提升 |
+|-----|---------|------------|---------|
+| README 编写 | 30-60 分钟 | 5-10 分钟 | 5-6 倍 |
+| UI 原型设计 | 2-4 小时 | 20-30 分钟 | 4-8 倍 |
+| Git 提交信息 | 2-5 分钟 | 10 秒 | 12-30 倍 |
+| 项目规划文档 | 1-2 天 | 1-2 小时 | 8-12 倍 |
 
+更重要的是**代码质量的改善**：
 - 代码风格和结构更加统一
 - 文档覆盖率从 30% 提升到 90%+
 - 自动应用行业标准和设计模式
@@ -268,18 +213,33 @@ MIT License
 
 ---
 
+## 注意事项
+
+**推荐做法：**
+
+- 始终检查 Skill 生成的代码和文档
+- 将 Skill 生成的文件纳入 Git 版本管理
+- 确保团队对 Skill 使用有一致理解
+
+**需要避免：**
+
+- 过度依赖 Skills，不能完全替代人工判断
+- 盲目信任输出，安全关键代码必须人工审查
+
+---
+
 ## 开始使用
 
 ```bash
-# 初始化 Claude Code
+# 安装 Claude Code
 npm install -g @anthropic-ai/claude-code
 
-# 配置 Skills
+# 安装常用 Skills
 claude-code skills install frontend-design
 claude-code skills install planning-with-files
 claude-code skills install readme-writing
 
-# 开始使用
+# 启动你的 AI 开发助手
 claude-code
 ```
 
@@ -287,9 +247,9 @@ claude-code
 
 ## 相关资源
 
-- **Skills 市场**：[https://skillsmp.com/](https://skillsmp.com/)
-- **Claude Code 文档**：[https://docs.anthropic.com/](https://docs.anthropic.com/)
-- **GitHub 仓库**：[https://github.com/anthropics/claude-code](https://github.com/anthropics/claude-code)
+- **Skills 市场**：https://skillsmp.com/
+- **Claude Code 文档**：https://docs.anthropic.com/
+- **GitHub 仓库**：https://github.com/anthropics/claude-code
 
 ---
 
