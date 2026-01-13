@@ -247,12 +247,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 11,
-        "ch": 4
+        "line": 8,
+        "ch": 1
       },
       "to": {
-        "line": 11,
-        "ch": 4
+        "line": 8,
+        "ch": 0
       }
     },
     "expandedKeys": [
