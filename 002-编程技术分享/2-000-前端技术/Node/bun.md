@@ -13,7 +13,7 @@ Bun 的定位是成为 JavaScript 和 TypeScript 的**一体化运行时**，它
 - **测试运行器**：类似 Jest/Vitest
 - **包管理器**：类似 npm/yarn/pnpm
 
-用一个词形容 Bun？那就是：**快**。
+用一个词形容 Bun？那就是：<mark style="background: #FFB8EBA6;">快</mark>。
 
 ## 为什么 Bun 这么快？
 
