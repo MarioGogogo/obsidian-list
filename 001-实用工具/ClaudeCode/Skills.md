@@ -7,6 +7,25 @@
 <font color="#ff0000">Skills 是 Claude Code 的插件系统。每个 Skill 都是一个可复用的工具模块，自动处理特定的开发任务，帮你节省大量重复工作。</font>
 
 ---
+## 目前项目中常用
+
+| 技能名称                                                     | 描述                      |
+| -------------------------------------------------------- | ----------------------- |
+| `planning-with-files`                                    | Manus 风格持久化 markdown 规划 |
+| `ui-ux-pro-max`                                          | UI/UX 设计智能体             |
+| `readme-writing`                                         | 编写文件夹 README            |
+| `maxritter-claude-codepro-frontend-components-standards` | 前端组件设计规范                |
+| `frontend-design`                                        | 创建生产级前端界面               |
+| `zenobi-us-dotfiles-git-workflow-manager`                | Git 工作流管理               |
+| `docs-write`                                             | 编写文档                    |
+| `zcf:git-worktree`                                       | 管理 Git worktree         |
+| `zcf:bmad-init`                                          | bmad-init 命令            |
+| `zcf:workflow`                                           | 六阶段开发工作流                |
+| `zcf:feat`                                               | 新增功能开发                  |
+| `zcf:init-project`                                       | 初始化项目 AI 上下文            |
+| `zcf:git-commit`                                         | 自动生成 commit 信息          |
+| `zcf:git-cleanBranches`                                  | 清理 Git 分支               |
+| `zcf:git-rollback`                                       | 回滚 Git 分支               |
 
 ## 为什么使用 Skills
 
