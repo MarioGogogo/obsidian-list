@@ -1,38 +1,3 @@
-## 快速解决方案
-
-```bash
-# ❌ 错误命名（包含连字符）
-npx react-native@0.74.5 init Nebula-RN74
-
-# ✅ 正确命名（驼峰或纯小写）
-npx react-native@0.74.5 init NebulaRN
-
-# 或者
-npx react-native@0.74.5 init nebularn
-```
-
----
-
-## 推荐的项目命名
-
-根据你的场景，这些名字都可以：
-
-### 方案 1：驼峰命名（推荐 ⭐⭐⭐⭐⭐）
-```bash
-npx react-native@0.74.5 init NebulaRN --version 0.74.5
-```
-
-### 方案 2：全小写
-```bash
-npx react-native@0.74.5 init nebularn --version 0.74.5
-```
-
-### 方案 3：描述性命名
-```bash
-npx react-native@0.74.5 init DynamicModuleLoader --version 0.74.5
-```
-
----
 
 ## 完整创建流程（复制即用）
 
@@ -62,29 +27,6 @@ npm install
 npm run ios  # 或 npm run android
 ```
 
----
-
-## 关于 NPX 缓存警告
-
-那个 `WARNING` 是正常的，有两种处理方式：
-
-### 方式 1：忽略警告（推荐）
-```bash
-# 直接创建，警告不影响功能
-npx react-native@0.74.5 init NebulaRN --version 0.74.5
-```
-
-### 方式 2：清理缓存
-```bash
-# 清理 npx 缓存
-npx clear-npx-cache
-
-# 或手动删除
-rm -rf ~/.npm/_npx
-
-# 然后创建项目
-npx react-native@0.74.5 init NebulaRN --version 0.74.5
-```
 
 ---
 
@@ -114,20 +56,18 @@ React Native 项目名必须符合：
 
 ---
 
-## 推荐最终命名
+## 推荐创建RN项目命令
 
 基于你的项目特性，我推荐：
 
 ```bash
+## 低版本RN 可以执行这段命令
 npx react-native@0.74.5 init NebulaRN --version 0.74.5
+
+# 高版本RN 推荐执行的命令
+npx @react-native-community/cli init NebulaRN --version 0.77.0
 ```
-
-**理由**：
-- ✅ 简洁（8个字符）
-- ✅ 符合命名规范
-- ✅ 易于识别
-- ✅ 品牌感强
-
+![](assets/运行RN0.74项目/file-20260112110152438.png)
 ---
 
 ## 创建后的验证步骤
@@ -151,15 +91,6 @@ npx react-native run-ios --simulator="iPhone 15"
 ```
 
 ---
-
-现在直接运行这个命令吧：
-
-```bash
-npx react-native@0.74.5 init NebulaRN --version 0.74.5
-```
-
-创建完成后告诉我，我们继续配置动态分包的架构！🚀
-
 
 
 看你的 Java 版本是 **1.8（Java 8）**，现在要升级到 **Java 17** 来运行新项目。
@@ -191,8 +122,13 @@ cd NebulaRN
 sdk use java 17.0.9-zulu
 
 # 老项目目录
+
+# 将你的Zulu JDK注册为本地版本
+sdk install java 8-zulu-local /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home
+
+
 cd /path/to/old-project
-sdk use java 8.0.472-zulu
+sdk use java 8-zulu-local
 
 # 5. 设置项目级别的默认版本
 # 在 NebulaRN 目录下
@@ -492,4 +428,3 @@ cd .. && npx react-native run-android
 ```
 
 配置完后告诉我结果，我们继续！🚀
-![](assets/运行RN0.74项目/file-20260112110152438.png)

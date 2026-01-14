@@ -24,7 +24,7 @@
   "I18N_MODE_NDT": false,
   "I18N_IGNORE": false,
   "I18N_NDT_URL": "gitee",
-  "I18N_MODE_NIT": true,
+  "I18N_MODE_NIT": false,
   "I18N_NIT_API": "OPENAI",
   "I18N_NIT_API_INTERVAL": 500,
   "I18N_NIT_APIS": {
