@@ -56,7 +56,7 @@ React Native 项目名必须符合：
 
 ---
 
-## 推荐最终命名
+## 推荐创建RN项目命令
 
 基于你的项目特性，我推荐：
 
@@ -65,7 +65,7 @@ React Native 项目名必须符合：
 npx react-native@0.74.5 init NebulaRN --version 0.74.5
 
 # 高版本RN 推荐执行的命令
-
+npx @react-native-community/cli init NebulaRN3 --version 0.76.5
 ```
 
 **理由**：
