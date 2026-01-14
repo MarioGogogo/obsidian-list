@@ -30,15 +30,15 @@
     "expandedKeys": []
   },
   "001-实用工具/Rime输入法.md": {
-    "scroll": 1.5555555555555556,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 7,
-        "ch": 89
+        "line": 10,
+        "ch": 49
       },
       "to": {
-        "line": 7,
-        "ch": 3
+        "line": 10,
+        "ch": 0
       }
     },
     "expandedKeys": []
