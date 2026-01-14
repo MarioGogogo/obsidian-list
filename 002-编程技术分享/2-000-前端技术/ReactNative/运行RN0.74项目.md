@@ -65,15 +65,9 @@ React Native 项目名必须符合：
 npx react-native@0.74.5 init NebulaRN --version 0.74.5
 
 # 高版本RN 推荐执行的命令
-npx @react-native-community/cli init NebulaRN3 --version 0.76.5
+npx @react-native-community/cli init NebulaRN --version 0.77.0
 ```
-
-**理由**：
-- ✅ 简洁（8个字符）
-- ✅ 符合命名规范
-- ✅ 易于识别
-- ✅ 品牌感强
-
+![](assets/运行RN0.74项目/file-20260112110152438.png)
 ---
 
 ## 创建后的验证步骤
@@ -434,4 +428,3 @@ cd .. && npx react-native run-android
 ```
 
 配置完后告诉我结果，我们继续！🚀
-![](assets/运行RN0.74项目/file-20260112110152438.png)

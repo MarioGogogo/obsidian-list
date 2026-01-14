@@ -17,3 +17,4 @@ cd /path/to/old-project
 sdk use java 8-zulu-local
 
 ```
+
