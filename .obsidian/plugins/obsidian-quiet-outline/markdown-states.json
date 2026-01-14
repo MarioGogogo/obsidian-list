@@ -347,12 +347,26 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 46
+        "line": 5,
+        "ch": 54
       },
       "to": {
-        "line": 0,
-        "ch": 46
+        "line": 5,
+        "ch": 54
+      }
+    },
+    "expandedKeys": []
+  },
+  "001-实用工具/Mac终端/使用 Zim 配置称手且快速的 Zsh.md": {
+    "scroll": 78.18460648148148,
+    "cursor": {
+      "from": {
+        "line": 141,
+        "ch": 160
+      },
+      "to": {
+        "line": 141,
+        "ch": 160
       }
     },
     "expandedKeys": []
