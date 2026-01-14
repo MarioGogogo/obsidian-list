@@ -34,11 +34,8 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "00-收集盒": "LiBoxes",
   "001-实用工具": "LiPenTool",
   "001-实用工具/Git": "LiGitCompareArrows",
   "002-编程技术分享": "LiFolderCode",
-  "003-英语修行": "LiHeadingGlyph",
-  "004-AI提示词": "LiSailboat",
-  "009-实用模板": "LiLayoutTemplate"
+  "004-AI提示词": "LiSailboat"
 }
