@@ -191,8 +191,13 @@ cd NebulaRN
 sdk use java 17.0.9-zulu
 
 # 老项目目录
+
+# 将你的Zulu JDK注册为本地版本
+sdk install java 8-zulu-local /Library/Java/JavaVirtualMachines/zulu-8.jdk/Contents/Home
+
+
 cd /path/to/old-project
-sdk use java 8.0.472-zulu
+sdk use java 8-zulu-local
 
 # 5. 设置项目级别的默认版本
 # 在 NebulaRN 目录下
