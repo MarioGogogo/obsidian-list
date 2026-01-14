@@ -11,26 +11,6 @@ npx react-native@0.74.5 init NebulaRN
 npx react-native@0.74.5 init nebularn
 ```
 
----
-
-## 推荐的项目命名
-
-根据你的场景，这些名字都可以：
-
-### 方案 1：驼峰命名（推荐 ⭐⭐⭐⭐⭐）
-```bash
-npx react-native@0.74.5 init NebulaRN --version 0.74.5
-```
-
-### 方案 2：全小写
-```bash
-npx react-native@0.74.5 init nebularn --version 0.74.5
-```
-
-### 方案 3：描述性命名
-```bash
-npx react-native@0.74.5 init DynamicModuleLoader --version 0.74.5
-```
 
 ---
 
@@ -62,29 +42,6 @@ npm install
 npm run ios  # 或 npm run android
 ```
 
----
-
-## 关于 NPX 缓存警告
-
-那个 `WARNING` 是正常的，有两种处理方式：
-
-### 方式 1：忽略警告（推荐）
-```bash
-# 直接创建，警告不影响功能
-npx react-native@0.74.5 init NebulaRN --version 0.74.5
-```
-
-### 方式 2：清理缓存
-```bash
-# 清理 npx 缓存
-npx clear-npx-cache
-
-# 或手动删除
-rm -rf ~/.npm/_npx
-
-# 然后创建项目
-npx react-native@0.74.5 init NebulaRN --version 0.74.5
-```
 
 ---
 
@@ -119,7 +76,11 @@ React Native 项目名必须符合：
 基于你的项目特性，我推荐：
 
 ```bash
+## 低版本RN 可以执行这段命令
 npx react-native@0.74.5 init NebulaRN --version 0.74.5
+
+# 高版本RN 推荐执行的命令
+
 ```
 
 **理由**：
