@@ -9,7 +9,7 @@ nvm use 18
 npx clear-npx-cache
 
 # 3. 创建项目（使用正确的命名）
-npx react-native@0.74.5 init NebulaRN --version 0.74.5
+npx @react-native-community/cli init NebulaRN3 --version 0.76.5
 
 # 4. 进入项目
 cd NebulaRN
