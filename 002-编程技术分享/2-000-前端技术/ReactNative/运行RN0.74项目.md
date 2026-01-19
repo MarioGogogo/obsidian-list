@@ -9,7 +9,7 @@ nvm use 18
 npx clear-npx-cache
 
 # 3. 创建项目（使用正确的命名）
-npx react-native@0.74.5 init NebulaRN --version 0.74.5
+npx @react-native-community/cli init NebulaRN3 --version 0.76.5
 
 # 4. 进入项目
 cd NebulaRN
@@ -34,12 +34,12 @@ npm run ios  # 或 npm run android
 
 React Native 项目名必须符合：
 
-| 规则 | ✅ 允许 | ❌ 不允许 |
-|------|---------|-----------|
-| 字符类型 | 字母、数字 | 连字符 `-`、下划线 `_`、空格 |
-| 首字符 | 字母 | 数字 |
-| 大小写 | 驼峰 `NebulaRN` 或 小写 `nebularn` | 不限制 |
-| 长度 | 建议 < 30 字符 | 无硬性限制 |
+| 规则   | ✅ 允许                          | ❌ 不允许              |
+| ---- | ----------------------------- | ------------------ |
+| 字符类型 | 字母、数字                         | 连字符 `-`、下划线 `_`、空格 |
+| 首字符  | 字母                            | 数字                 |
+| 大小写  | 驼峰 `NebulaRN` 或 小写 `nebularn` | 不限制                |
+| 长度   | 建议 < 30 字符                    | 无硬性限制              |
 
 **示例**：
 ```bash
