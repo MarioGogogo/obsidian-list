@@ -267,12 +267,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 10,
-        "ch": 18
+        "line": 9,
+        "ch": 0
       },
       "to": {
-        "line": 10,
-        "ch": 18
+        "line": 9,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -404,7 +404,7 @@
     "expandedKeys": []
   },
   "002-编程技术分享/2-000-前端技术/ReactNative/新架构原生事件配置指南.md": {
-    "scroll": 32.66261574074074,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 6,
@@ -413,6 +413,20 @@
       "to": {
         "line": 6,
         "ch": 52
+      }
+    },
+    "expandedKeys": []
+  },
+  "欢迎.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 71
+      },
+      "to": {
+        "line": 4,
+        "ch": 71
       }
     },
     "expandedKeys": []
