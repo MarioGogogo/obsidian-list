@@ -1,6 +1,6 @@
 {
   "001-实用工具/Git/系统重置后Git配置.md": {
-    "scroll": 52.014467592592595,
+    "scroll": 11.14578947368421,
     "cursor": {
       "from": {
         "line": 64,
@@ -30,7 +30,7 @@
     "expandedKeys": []
   },
   "001-实用工具/Rime输入法.md": {
-    "scroll": 10.731662206280038,
+    "scroll": 0.4659090909090909,
     "cursor": {
       "from": {
         "line": 10,
@@ -501,11 +501,25 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1351,
+        "line": 1352,
         "ch": 0
       },
       "to": {
-        "line": 1351,
+        "line": 1352,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "000-收集箱/test.md": {
+    "scroll": 8.395061728395062,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 0
+      },
+      "to": {
+        "line": 21,
         "ch": 0
       }
     },
