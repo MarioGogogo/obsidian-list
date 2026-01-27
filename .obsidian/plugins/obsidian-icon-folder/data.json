@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiBox",
       "LiLayoutTemplate",
       "LiSailboat",
       "LiHeadingGlyph",
-      "LiFolderCode",
-      "LiGitCompareArrows"
+      "LiFolderCode"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -37,5 +37,6 @@
   "001-实用工具": "LiPenTool",
   "001-实用工具/Git": "LiGitCompareArrows",
   "002-编程技术分享": "LiFolderCode",
-  "004-AI提示词": "LiSailboat"
+  "004-AI提示词": "LiSailboat",
+  "000-收集箱": "LiBox"
 }
