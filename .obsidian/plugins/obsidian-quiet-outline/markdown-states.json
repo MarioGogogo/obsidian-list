@@ -566,5 +566,33 @@
       }
     },
     "expandedKeys": []
+  },
+  "001-实用工具/Mise/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "001-实用工具/Mise/安装.md": {
+    "scroll": 70.84346064814815,
+    "cursor": {
+      "from": {
+        "line": 97,
+        "ch": 26
+      },
+      "to": {
+        "line": 97,
+        "ch": 26
+      }
+    },
+    "expandedKeys": []
   }
 }
