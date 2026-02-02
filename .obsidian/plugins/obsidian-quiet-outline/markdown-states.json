@@ -58,7 +58,7 @@
     "expandedKeys": []
   },
   "001-实用工具/ClaudeCode/Skills.md": {
-    "scroll": 0,
+    "scroll": 14.261125626109676,
     "cursor": {
       "from": {
         "line": 27,
@@ -535,6 +535,34 @@
       "to": {
         "line": 1,
         "ch": 49
+      }
+    },
+    "expandedKeys": []
+  },
+  "001-实用工具/ClaudeCode/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "001-实用工具/ClaudeCode/小tips.md": {
+    "scroll": 26.033275462962962,
+    "cursor": {
+      "from": {
+        "line": 56,
+        "ch": 29
+      },
+      "to": {
+        "line": 56,
+        "ch": 29
       }
     },
     "expandedKeys": []
