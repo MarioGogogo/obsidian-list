@@ -585,12 +585,26 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 22,
-        "ch": 14
+        "line": 1,
+        "ch": 0
       },
       "to": {
-        "line": 22,
-        "ch": 18
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "001-实用工具/Mise/使用指南.md": {
+    "scroll": 7.2346521933686505,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
       }
     },
     "expandedKeys": []
