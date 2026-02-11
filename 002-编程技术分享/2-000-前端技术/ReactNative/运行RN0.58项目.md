@@ -15,6 +15,5 @@ sdk install java 8-zulu-local /Library/Java/JavaVirtualMachines/zulu-8.jdk/Conte
 cd /path/to/old-project
 # 切换低版本java
 sdk use java 8-zulu-local
-
 ```
 

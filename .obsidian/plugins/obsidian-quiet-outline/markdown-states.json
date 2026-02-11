@@ -291,12 +291,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 13,
-        "ch": 0
+        "line": 16,
+        "ch": 25
       },
       "to": {
-        "line": 13,
-        "ch": 0
+        "line": 16,
+        "ch": 25
       }
     },
     "expandedKeys": []
@@ -347,12 +347,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 4,
-        "ch": 6
+        "line": 5,
+        "ch": 47
       },
       "to": {
-        "line": 4,
-        "ch": 6
+        "line": 5,
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -442,7 +442,7 @@
     "expandedKeys": []
   },
   "002-编程技术分享/2-000-前端技术/ReactNative/ReactNative如何指挥原生UI.md": {
-    "scroll": 0,
+    "scroll": 1.9022284147283037,
     "cursor": {
       "from": {
         "line": 0,
@@ -456,15 +456,15 @@
     "expandedKeys": []
   },
   "002-编程技术分享/2-000-前端技术/ReactNative/新架构原生事件配置指南.md": {
-    "scroll": 491.7824074074074,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 492,
+        "ch": 74
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 492,
+        "ch": 74
       }
     },
     "expandedKeys": []
