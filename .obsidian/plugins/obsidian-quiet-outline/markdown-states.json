@@ -347,12 +347,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 5,
-        "ch": 47
+        "line": 0,
+        "ch": 46
       },
       "to": {
-        "line": 5,
-        "ch": 0
+        "line": 0,
+        "ch": 3
       }
     },
     "expandedKeys": []
