@@ -622,5 +622,19 @@
       }
     },
     "expandedKeys": []
+  },
+  "000-收集箱/DownloadProgress组件流程图.flowchart.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 12
+      },
+      "to": {
+        "line": 6,
+        "ch": 2
+      }
+    },
+    "expandedKeys": []
   }
 }
